@@ -2,14 +2,14 @@ import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
 // Import weather logos using Vite's asset handling
-import cloudyLogo from "../assets/logos/Cloudy.png";
-import cloudyNightLogo from "../assets/logos/cloudy-night.png";
-import drizzleLogo from "../assets/logos/drizzle.png";
-import lessCloudyLogo from "../assets/logos/Less-Cloudy.png";
-import moreCloudyLogo from "../assets/logos/more-cloudy.png";
-import nightLogo from "../assets/logos/night.png";
-import rainLogo from "../assets/logos/rain.png";
-import thunderstormLogo from "../assets/logos/Thunderstorm.png";
+import cloudyLogo from "../assets/Cloudy.png";
+import cloudyNightLogo from "../assets/cloudy-night.png";
+import drizzleLogo from "../assets/drizzle.png";
+import lessCloudyLogo from "../assets/Less-Cloudy.png";
+import moreCloudyLogo from "../assets/more-cloudy.png";
+import nightLogo from "../assets/night.png";
+import rainLogo from "../assets/rain.png";
+import thunderstormLogo from "../assets/Thunderstorm.png";
 
 interface WeatherAnimationsProps {
   condition: string;
